@@ -1,0 +1,5 @@
+input_dim,neurons_layer1,activation_layer1,learning_rate,weight_initializer,batch_size,regularization_type,regularization_strength,use_dropout,dropout_rate,metrics,Time,Model,Training Time,Test Loss,Test Accuracy,Precision,Recall,F1 Score,ROC-AUC Score,Average Precision Score,neurons_layer2,activation_layer2,neurons_layer3,activation_layer3,neurons_layer4,activation_layer4,neurons_layer5,activation_layer5,neurons_layer6,activation_layer6,neurons_layer7,activation_layer7
+20.0,512.0,relu,0.001,glorot_uniform,64.0,l2,0.01,True,0.01,shallow_hyperparameters,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,shallow_metrics,1708577672.2068748,shallow_model_ANN_hp,605.7730960845947,0.19382119178771973,0.9176344275474548,0.9192182410423453,0.9148476334558029,0.9170277296360485,0.9796663541912993,0.9801920538736774,,,,,,,,,,,,
+20.0,256.0,tanh,0.0001,he_normal,32.0,,,,0.001,deep_hyperparameters,,,,,,,,,,,128.0,relu,64.0,leaky_relu,32.0,relu,16.0,tanh,8.0,relu,4.0,relu
+,,,,,,,,,,,1708579357.8509204,deep_model_ANN_hp,1561.5455524921417,0.14167971909046173,0.9327957034111023,0.9547727272727272,0.9079317052085585,0.9307632657582806,0.986735020595486,0.9875065118628539,,,,,,,,,,,,
